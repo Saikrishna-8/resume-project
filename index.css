@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    /* border: 1px solid red; */
+}
+
+
+/* Body header */
+
+#body-header {
+    height: 65vh;
+    background-image: url(images/macbook.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+
+}
+
+/* horizontal list */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    /* text-align: center; */
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+
+.horizontal-list li a:hover {
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    /* color: red; */
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px;
+    border: 1px solid white;
+}
+
+.social-icons ul li a:hover {
+    border-bottom: none;
+}
+
+
+/* About */
+#about #self-info {
+    color: grey;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 70%;
+    min-width: 660px;
+    margin: -3em auto 2em;
+}
+
+#about #self-info span {
+    color: #2857a4;
+}
+
+#about #profile-image {
+    transition: 1s;
+    width: 17%;
+    height: auto;
+    min-width: 240px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: +1;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 4px lightgrey;
+}
+
+
+
+/* Percentage Classes */
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.fifty-percent {
+    width: 50%;
+    height: inherit;
+}
+
+
+
+/* Skills */
+#skills-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-progress {
+    width: 20%;
+    min-width: 180px;
+    height: auto;
+    border-radius: 25px;
+    background-color: lightgrey;
+    margin: 2rem 1rem;
+}
+
+.skill-progress>div {
+    border-radius: 25px 0 0 25px;
+    box-shadow: 4px 0px 4px 0px grey;
+}
+
+#skill-1,
+#skill-5 {
+    background-color: dodgerblue;
+}
+
+#skill-2 {
+    background-color: orangered;
+}
+
+#skill-4 {
+    background-color: green;
+}
+
+#skill-3,
+#skill-6 {
+    background-color: palevioletred;
+}
+
+.skill-name {
+    margin-left: 10px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
